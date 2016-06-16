@@ -44,10 +44,9 @@
               <li>Akka.Net</li>
               <li>.Net Core</li>
               <li>.Net Data Security</li>
-              <li>C# 7 demo</li>
-              <li>Komplett?</li>
+              <li>What’s new in C#7</li>
               <li>Design Patterns</li>
-              <li>IoT</li>
+              <li>•	Litt dill dall om hvordan å bli en bedre utvikler</li>
               <li>C# powered cross platform build automation</li>
               <li>Vannballonger – ta med regntøy (Dilbert)</li>
             </ul>
@@ -92,21 +91,14 @@
             <iframe width="100%" height="100%" src="http://hackertyper.com/">
 							<h1>IFrame ikke støttet</h1>
 						</iframe>
-						<aside class="notes">
-							<ul>
-								<li>Passerte 1 milliard pwned kontoer live</li>
-                <li>Hvordan får Troy Hunt tak i dataene?
-                  <ul>
-                    <li>The Real Deal (tilgjengelig på TOR-nettverket)</li>
-                    <li>SipH0n</li>
-                    <li>Combos.ForSale (mest salg av datasett)</li>
-                  </ul>
-                </li>
-                <li>Betaler aldri for datasett og gjort et bevist valg med ikke komeriselisering av haveibeenpwned.com</li>
-							</ul>
-						</aside>
           </section>
-          <section>Content</section>
+          <section>
+						<ul>
+							<li>System.Random og RNGCryptoServiceProvider</li>
+							<li>God hashing metode bør være treg.</li>
+							<li>Timingangrep</li>
+						</ul>
+					</section>
           <section>
             <div>
               <img src="./img/book1.jpg" style="padding:5px;float:left;" />
@@ -125,34 +117,21 @@
           <section>
             <h3>Actor model</h3>
             <p>
-              The actor model in computer science is a mathematical model of concurrent computation that treats "actors" as the universal primitives of concurrent computation.
-              In response to a message that it receives, an actor can: make local decisions, create more actors, send more messages, and determine how to respond to the next message received.
-              Actors may modify private state, but can only affect each other through messages (avoiding the need for any locks).
+              An “actor” is really just an analog for human participants in a system. Actors communicate with each other just like how humans do, by exchanging messages. Actors, like humans, can do work between messages.
             </p>
           </section>
           <section>
             <p>
               <ul>
-                <li>XXXX</li>
+                <li>I en Aktor model alt er en aktor, akkurat som "alt" er objekter i OOP.</li>
+								<li>I Akka.Net og Actor model, aktorer kommuniserer med hverandre ved å sende meldinger.</li>
+								<li>Meldingssending er asynkront.</li>
+								<li>Actors sender meldinger til adresser, ikke direkte til en Actor</li>
+								<li>Actors prosesserer en melding av gangen, mailboks</li>
               </ul>
+							<a href="https://petabridge.com/blog/akkadotnet-what-is-an-actor/">Akka.NET: What is an Actor?</a>
             </p>
           </section>
-          <section>
-            <p>
-              Demo...
-            </p>
-          </section>
-        </section>
-        <section>
-          <h1>C# 7</h1>
-        </section>
-        <section>
-          <h1>komplett?</h1>
-        </section>
-        <section>
-          <h1>Design Patterns</h1>
-        </section>
-        <section data-background-image="./img/iot.jpg">
         </section>
         <section>
           <h1>C# powered cross platform build automation</h1>
